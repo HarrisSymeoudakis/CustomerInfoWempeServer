@@ -179,7 +179,7 @@ app.get("/swagger/Addresses", async (req, res) => {
 // Use CORS middleware
 app.use(
   cors({
-    origin: "https://externalcustomerform.netlify.app", // Allow this origin
+    origin: "https://customer-form-wempe.netlify.app", // Allow this origin
     methods: ["GET", "POST"], // Allow these methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allow these headers
   })
